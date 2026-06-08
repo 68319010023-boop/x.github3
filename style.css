@@ -1,0 +1,54 @@
+/* Element Selector */
+body{
+    background-color:#e3f2fd;
+    font-family:Tahoma, sans-serif;
+}
+
+h1{
+    color:#0d6efd;
+    text-align:center;
+}
+
+h2{
+    color:#198754;
+}
+
+/* Class Selector */
+.card{
+    width:550px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border:2px solid #0d6efd;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+
+.education{
+    text-align:center;
+    color:#555;
+}
+
+/* ID Selector */
+#profile{
+    display:block;
+    margin:0 auto 15px;
+    width:180px;
+    height:180px;
+    border:4px solid #0d6efd;
+    border-radius:50%;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+ul{
+    line-height:1.8;
+}
+
+p{
+    line-height:1.6;
+}
